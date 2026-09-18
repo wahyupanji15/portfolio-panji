@@ -1,0 +1,13 @@
+To add your profile photo:
+
+1. Name your photo file exactly: profile-photo.jpg
+2. Drag it into this folder (/public).
+3. Refresh the site — it'll show automatically in the circular photo
+   slot on the homepage.
+
+Until you add one, the site shows your initials instead, so nothing
+looks broken.
+
+(If your photo is a .png or .jpeg, either rename it to
+profile-photo.jpg, or open components/ProfilePhoto.tsx and change
+the src="/profile-photo.jpg" line to match your file's name.)
